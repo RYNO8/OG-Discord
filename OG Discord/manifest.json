@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "author": "Ryno#6737",
+    "description": "For those of you who prefer the old theme of discord.",
+    "name": "OG Discord",
+    "version": "1.0",
+    "content_scripts": [{
+        "matches": ["*://discord.com/*"],
+        "js": ["main.js"]
+    }]
+}
