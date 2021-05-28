@@ -1,0 +1,85 @@
+/* theme colours, font */
+html.newBrand {
+    --brand-experiment-100: #f7f7fe;
+    --brand-experiment-130: #f0f1fe;
+    --brand-experiment-160: #e7e9fd;
+    --brand-experiment-200: #dee0fc;
+    --brand-experiment-230: #d4d7fc;
+    --brand-experiment-260: #c9cdfb;
+    --brand-experiment-300: #bcc1fa;
+    --brand-experiment-330: ${LIGHT_BURPLE};
+    --brand-experiment-360: ${LIGHT_BURPLE};
+    --brand-experiment-400: ${LIGHT_BURPLE};
+    --brand-experiment-430: ${LIGHT_BURPLE};
+    --brand-experiment-460: ${LIGHT_BURPLE};
+    --brand-experiment:     ${LIGHT_BURPLE};
+    --brand-experiment-500: ${LIGHT_BURPLE};
+    --brand-experiment-530: ${LIGHT_BURPLE};
+    --brand-experiment-560: ${LIGHT_BURPLE};
+    --brand-experiment-600: ${LIGHT_BURPLE};
+    --brand-experiment-630: ${LIGHT_BURPLE};
+    --brand-experiment-660: ${LIGHT_BURPLE};
+    --brand-experiment-700: ${LIGHT_BURPLE};
+    --brand-experiment-730: ${LIGHT_BURPLE};
+    --brand-experiment-760: ${LIGHT_BURPLE};
+    --brand-experiment-800: ${LIGHT_BURPLE};
+    --brand-experiment-830: ${LIGHT_BURPLE};
+    --brand-experiment-860: ${LIGHT_BURPLE};
+    --brand-experiment-900: ${LIGHT_BURPLE};
+    --brand-experiment-05a: rgba(88,101,242,0.05);
+    --brand-experiment-10a: rgba(88,101,242,0.1);
+    --brand-experiment-15a: rgba(88,101,242,0.15);
+    --brand-experiment-20a: rgba(88,101,242,0.2);
+    --brand-experiment-25a: rgba(88,101,242,0.25);
+    --brand-experiment-30a: rgba(88,101,242,0.3);
+    --brand-experiment-35a: rgba(88,101,242,0.35);
+    --brand-experiment-40a: rgba(88,101,242,0.4);
+    --brand-experiment-45a: rgba(88,101,242,0.45);
+    --brand-experiment-50a: rgba(88,101,242,0.5);
+    --brand-experiment-55a: rgba(88,101,242,0.55);
+    --brand-experiment-60a: rgba(88,101,242,0.6);
+    --brand-experiment-65a: rgba(88,101,242,0.65);
+    --brand-experiment-70a: rgba(88,101,242,0.7);
+    --brand-experiment-75a: rgba(88,101,242,0.75);
+    --brand-experiment-80a: rgba(88,101,242,0.8);
+    --brand-experiment-85a: rgba(88,101,242,0.85);
+    --brand-experiment-90a: rgba(88,101,242,0.9);
+    --brand-experiment-95a: rgba(88,101,242,0.95);
+    --font-display: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.theme-light,.theme-dark {
+	--focus-primary: ${LIGHT_BURPLE};
+}
+.theme-light,.theme-dark .footer-1fjuF6 {
+	border-color: transparent;
+}
+
+/* reactions */
+.reactionMe-wv5HKu {
+	border: 0px transparent;
+	border-radius: 5px;
+}
+.reaction-1hd86g {
+	border: 0px transparent;
+	border-radius: 5px;
+}
+
+/* profile banner */
+.userPopout-3XzG_A {
+    border-radius: 10px;
+}
+.profileBanner-33-uE1.banner-2QYc2d {
+    visibility: hidden;
+}
+.avatarWrapperNormal-2tu8Ts.avatarWrapper-1-5NA0.avatarPositionNormal-1CZUPk {
+	left: 35%;
+}
+.headerNormal-1l1Znk {
+    text-align: center;
+}
+.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+    background-color: var(--background-primary);
+}
+.footer-1fjuF6 {
+    background-color: var(--background-primary);
+}
