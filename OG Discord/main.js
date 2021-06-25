@@ -1,4 +1,4 @@
-// v3
+// v4
 
 var id = [
 	100, 130, 160, 200, 230, 260, 300, 330, 360, 400, 430, 460, 
@@ -14,9 +14,9 @@ var s = document.createElement('style');
 s.type = "text/css"
 s.appendChild(document.createTextNode(`
 /* theme colours, font */
-html.newBrand {
+html {
     --brand-experiment-100: #f7f7fe;
-	--brand-experiment-130: #f0f1fe;
+    --brand-experiment-130: #f0f1fe;
     --brand-experiment-160: #e7e9fd;
     --brand-experiment-200: #dee0fc;
     --brand-experiment-230: #d4d7fc;
@@ -62,41 +62,49 @@ html.newBrand {
     --brand-experiment-95a: rgba(88,101,242,0.95);
     --font-display: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+:root {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+}
 .theme-light,.theme-dark {
 	--focus-primary: ${LIGHT_BURPLE};
 }
-.theme-light,.theme-dark .footer-1fjuF6 {
+.theme-light,.theme-dark {
 	border-color: transparent;
 }
-
 /* reactions */
-.reactionMe-wv5HKu {
+[class^=reactionMe] {
 	border: 0px transparent;
 	border-radius: 5px;
 }
-.reaction-1hd86g {
+[class^=reaction] {
 	border: 0px transparent;
 	border-radius: 5px;
 }
 
 /* profile banner */
-.userPopout-3XzG_A {
+[class^=userPopout] {
     border-radius: 10px;
 }
-.profileBanner-33-uE1.banner-2QYc2d {
+[class^=banner] {
     visibility: hidden;
 }
-.avatarWrapperNormal-2tu8Ts.avatarWrapper-1-5NA0.avatarPositionNormal-1CZUPk {
+[class^=avatarWrapperNormal] {
 	left: 35%;
 }
-.headerNormal-1l1Znk {
+[class^=headerNormal] {
     text-align: center;
 }
-.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
+[class^=headerText] {
+    text-align: center;
+}
+[class^=fade] {
     background-color: var(--background-primary);
 }
-.footer-1fjuF6 {
+[class^="footer"] {
     background-color: var(--background-primary);
+	border-color: transparent;
 }
 `));
 head.appendChild(s);
